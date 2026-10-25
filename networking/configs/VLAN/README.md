@@ -169,7 +169,7 @@
 
     C:\>
 ```
-> [!WARINING]
+> [!WARNING]
 > Résultat: PC1 envoie 04 paquets, et PC2 les réçoit sans perte (0% loss), ça prouve que les 02 PC communiquent sans problèmes.
 
 - Ping PC3 vers PC4 :
@@ -190,7 +190,7 @@
 
     C:\>
 ```
-> [!WARINING]
+> [!WARNING]
 > Résultat: perte 0%, PC3 et PC4 se communiquent.
 
 - Ping PC5 vers PC6 :
@@ -211,7 +211,7 @@
 
     C:\>
 ```
-> [!WARINING] 
+> [!WARNING] 
 > Résultat: perte 0%, PC5 et PC6 se communiquent.
     
 ### Communication inter-vlan :
@@ -231,7 +231,7 @@
 
     C:\>
 ```
-> [!WARINING]
+> [!WARNING]
 > Résultat: perte 100%, PC2 et PC5 ne peut pas se connecter.
 
 - On branche une nouvelle machine (PC7) au port FastEthernet0/14
@@ -251,7 +251,7 @@ puis on lance un ping depuis PC7 vers PC1 :
 
     C:\>
 ```
-> [!WARINING]
+> [!WARNING]
 > Résultat: perte 100%, PC7 et PC1 ne peut pa se communiquer
 > parce que PC7 est branché dans un port d'accès pour VLAN 20,
 > qui autorise seulement les traffics internes de ce VLAN et bloque
