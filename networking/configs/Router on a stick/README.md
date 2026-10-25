@@ -36,11 +36,11 @@
 > [!NOTE]
 > Étape 2: Configurer le **Trunk**
 
-- Sélectionner l'interface, activer le mode **Trunk**, autauriser les VLANs
+- Sélectionner l'interface, activer le mode **Trunk**, autoriser les VLANs
 ```cisco
     Switch (config)# interface gi0/1
     Switch (config-if)# switchport mode trunk
-    Switch (config-if)# switchport allowed vlan 10,20
+    Switch (config-if)# switchport trunk allowed vlan 10,20
 ```
 
 - Vérification
