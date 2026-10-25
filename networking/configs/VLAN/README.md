@@ -89,7 +89,7 @@
 > Résultat: Les trois VLANs sont bien créés et actives, mais tous les ports du switch reste dans le vlan par défaut (VLAN 1).
         
 > [!NOTE]
-> Configurer les ports d'accès par VLAN:
+> Étape 2: Configurer les ports d'accès par VLAN:
 
 - [x] Entrer en mode configuration globale:
 ```cisco
@@ -275,14 +275,8 @@ puis on lance un ping depuis PC7 vers PC1 :
 |`switchport mode access`|Activation du mode access|
 |`switchport access vlan <num_vlan>`|Spécification du VLAN ayant l'accès|
 
-## Conclusion:
-    * Ce lab m'a permis de comprendre que: configurer un VLAN, c'est comme `construire des mûres`
-    capable d'isoler les traffics des différents services. Mais ce sont juste des mûres, sans aucunne porte.
-    Alors, au moment où un service a besoin d'accès à un autre, on doit passer au `routage inter-vlan`
-    (router on a stick/switch L3).
-
 > [!NOTE]
-> Ce lab m'a permis de comprendre que: configurer un VLAN, c'est comme `construire des mûres`
+> Conclusion: Ce lab m'a permis de comprendre que: configurer un VLAN, c'est comme `construire des mûres`
 > capable d'isoler les traffics des différents services. Mais ce sont juste des mûres, sans aucunne porte.
 > Alors, au moment où un service a besoin d'accès à un autre, on doit passer au `routage inter-vlan`
 > (router on a stick/switch L3).
