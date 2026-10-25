@@ -181,6 +181,7 @@
 > Pour supprimer une route statique, il suffit d'ajouter `no` devant la Commande de création `no ip route <réseau_destination> <mask> <ip_next_hop>`
     
 > [!NOTE]
+> Conclusion : 
 > Ce lab m'a permis de comprendre que les routeurs `transfèrent`
 > les paquets reçus de l'une de ses interfaces vers l'autre puis à son voisin
 > selon les routes statiques configurées par l'administrateur réseau.
